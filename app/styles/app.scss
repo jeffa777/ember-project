@@ -1,0 +1,37 @@
+@import "ember-modal-dialog/ember-modal-structure";
+@import "ember-modal-dialog/ember-modal-appearance";
+
+$font-stack: Helvetica, sans-serif;
+$primary-color: rgb(56, 84, 110);
+$border-dark: rgba($primary-color, 0.9);
+
+body {
+	font: 100% $font-stack;
+	color: $primary-color;
+	background-color: rgb(206, 206, 206);
+}
+
+h1 {
+	text-align: center;
+	padding: 15px;
+	border: 2px solid $border-dark;
+	background-color: rgba(43, 128, 170, 0.5);
+}
+
+ul,
+li {
+	text-align: left;
+}
+
+div {
+	padding-left: 40px;
+}
+
+button {
+	margin-left: 10px;
+}
+
+.ember-modal-dialog {
+	width: 400px;
+	height: 200px;
+}
