@@ -4,7 +4,7 @@ This simple Ember app is returning 100 posts from the JSONPlaceholder API. When 
 
 ## GIF showing it working:
 
-![0](https://user-images.githubusercontent.com/47544368/62959708-5729a780-bdc7-11e9-9be5-85ee33beb8bb.png)
+![Ember-projectgif](https://user-images.githubusercontent.com/47544368/62960193-24cc7a00-bdc8-11e9-80ab-b30c4dcdec4f.gif)
 
 ## Prerequisites
 
