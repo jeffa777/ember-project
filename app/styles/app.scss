@@ -20,7 +20,9 @@ h1 {
 
 ol,
 li {
-	text-align: left;
+	list-style-type: upper-roman;
+	padding: 3px;
+	list-style-position: inside;
 }
 
 div {
@@ -34,6 +36,7 @@ button {
 }
 
 .ember-modal-dialog {
+	text-align: center;
 	width: 400px;
 	height: 200px;
 }

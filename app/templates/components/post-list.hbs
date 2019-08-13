@@ -4,13 +4,14 @@
   {{#each @posts as |post|}}
     <li>
       {{post.title}}
-      <button {{action (action "toggleModal")}}>Body</button>
+      <button {{action (action "toggleModal")}}>View Body</button>
     </li>
     {{#if isShowingModal}}
       {{#modal-dialog
       onClose=(action "toggleModal")
       targetAttachment="center"
       translucentOverlay=true}}
+        <h3>Post Body</h3>
         {{post.body}}
       {{/modal-dialog}}
     {{/if}}
