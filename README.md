@@ -2,6 +2,10 @@
 
 This simple Ember app is returning 100 posts from the JSONPlaceholder API. When you click on the button, it will bring up the body of that post in a modal.
 
+## GIF showing it working:
+
+![0](https://user-images.githubusercontent.com/47544368/62959708-5729a780-bdc7-11e9-9be5-85ee33beb8bb.png)
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
