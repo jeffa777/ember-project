@@ -1,23 +1,21 @@
 <h2>{{fa-icon "clipboard-list"}} {{@title}}</h2>
 
-<ul>
+<ol>
   {{#each @posts as |post|}}
-    <li>{{post.title}}
+    <li>
+      {{post.title}}
       <button {{action (action "toggleModal")}}>Body</button>
     </li>
-  {{!-- {{/each}} --}}
-{{!-- </ul> --}}
-
-{{#if isShowingModal}}
-  {{#modal-dialog
+    {{#if isShowingModal}}
+      {{#modal-dialog
       onClose=(action "toggleModal")
       targetAttachment="center"
-      translucentOverlay=true
-  }}
-   {{post.body}}
-  {{/modal-dialog}}
-{{/if}}
-{{/each}}
-</ul>
+      translucentOverlay=true}}
+        {{post.body}}
+      {{/modal-dialog}}
+    {{/if}}
+  {{/each}}
+</ol>
 
 {{yield}}
+

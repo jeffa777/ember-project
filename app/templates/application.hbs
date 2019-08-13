@@ -1,9 +1,9 @@
 <h1>{{fa-icon "clipboard"}} Post Tracker</h1>
 
 {{#if isShowingModal}}
-    {{debugger}}
   {{#modal-dialog translucentOverlay=true close="closeModalDialog"}}
-    {{log closeModalDialog}}
+    {{closeModalDialog}}
+    Post Body
     {{modalMessage}}
   {{/modal-dialog}}
 {{/if}}
